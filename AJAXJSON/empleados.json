@@ -1,20 +1,26 @@
 [
      {
           "id" : 1,
-          "nombre" : "Juan",
+          "nombre" : "Mario Alonso",
           "empresa" : "EasyWebDev",
-          "trabajo" : "Desarrollador Web"
+          "trabajo" : "Data Base Manager"
      },
      {
           "id" : 2,
-          "nombre" : "Alejandra",
+          "nombre" : "Miguel",
           "empresa" : "EasyWebDev",
-          "trabajo" : "Diseñadora"
+          "trabajo" : "Web Developer"
      },
      {
           "id" : 3,
-          "nombre" : "Pedro",
+          "nombre" : "Armando Alonso",
           "empresa" : "EasyWebDev",
-          "trabajo" : "Aplicaciones Móviles"
+          "trabajo" : "Designer"
+     },
+     {
+          "id" : 4,
+          "nombre" : "Luis Angel",
+          "empresa" : "EasyWebDev",
+          "trabajo" : "Scrum Master"
      }
 ]
