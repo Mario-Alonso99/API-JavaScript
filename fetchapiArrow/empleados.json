@@ -1,0 +1,18 @@
+[
+    {
+        "nombre" : "Armando",
+        "puesto" : "Data Base Manager"
+    },
+    {
+        "nombre" : "Mario",
+        "puesto" : "Web Developer"
+    },
+    {
+        "nombre" : "Oscar",
+        "puesto" : "Designer"
+    },
+    {
+        "nombre" : "Nacho",
+        "puesto" : "Web Developer"
+    }
+]
