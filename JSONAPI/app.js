@@ -4,7 +4,7 @@ function cargarAPI(){
     //crear el objeto
     const xhr = new XMLHttpRequest();
     //Abrir la conexión
-    xhr.open('GET', 'http://jsonplaceholder.typicode.com/posts', true);
+    xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts', true);
     //Carga y leer datos
     xhr.onload = function(){
         if(this.status === 200){
