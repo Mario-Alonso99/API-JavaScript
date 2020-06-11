@@ -14,7 +14,7 @@ function cargarNombres(e) {
      let url = `http://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=${ origenSeleccionado }&api_key=${ apiKey }&format=json`;
 
 
-
+     //Crear Fetch
      fetch(url)
           .then(function(res){
                return res.json();
@@ -34,3 +34,4 @@ function cargarNombres(e) {
                console.log(error);
           })
 }
+//Created By Ing. Mario Alberto Alonso

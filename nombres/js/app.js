@@ -57,3 +57,4 @@ function cargarNombres(e){
     //Enviar el Request
     xhr.send();
 }
+//Created By Ing. Mario Alberto Alonso

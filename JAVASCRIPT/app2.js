@@ -24,3 +24,5 @@ aplicarDescuento.then(function(resultado){
 }).catch(function(error){
     console.log(error);
 });
+
+//Created By Ing. Mario Alberto Alonso
