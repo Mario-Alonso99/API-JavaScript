@@ -10,9 +10,10 @@ function cargarNombres(e) {
 
      const origen = document.getElementById('origen');
      const origenSeleccionado = origen.options[origen.selectedIndex].value;
+     const cantidad = document.getElementById('numero').value;
 
-     let url = `http://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=${ origenSeleccionado }&api_key=${ apiKey }&format=json`;
-
+     let url = '';
+     url += `http://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=${ origenSeleccionado }&limit=${ cantidad }&api_key=${ apiKey }&format=json`;
 
      //Crear Fetch
      fetch(url)
